@@ -1,6 +1,6 @@
 
       <footer>
-        <p>&copy; Company 2012</p>
+        <p>&copy; Jasmin Ada Knox 2013,2014,2015</p>
       </footer>
 
 

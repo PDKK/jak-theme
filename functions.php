@@ -19,4 +19,9 @@ $theRequest = 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress/' . 'wp-login.ph
     }
 }
 add_action('login_head', 'example_simple_query_string_protection_for_login_page');
+add_action('get_header', 'my_filter_head');
+
+function my_filter_head() {
+   remove_action('wp_head', '_admin_bar_bump_cb');
+} 
 ?>
